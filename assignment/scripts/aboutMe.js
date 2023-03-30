@@ -10,7 +10,7 @@ let fullName = firstName + lastName
 // 4 - Console log the value of `fullName`
 console.log(fullName)
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 1;
+let luckyNumber = 47;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -83,7 +83,8 @@ switch(luckyNumber) {
     break;
     case 3 : console.log( 'Third is the one with the polka dot dress' );
     break;
+    default : console.log( 'Luck is what happens when preparation meets opportunity' )
+    break;
 }
-console.log( 'Luck is what happens when preperation meets opportunity' );
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 (adventurous = true) ? console.log( 'Adventures are great!' ) : console.log( 'How about we stay home?' );
